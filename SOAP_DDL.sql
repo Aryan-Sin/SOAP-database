@@ -10,7 +10,7 @@ CREATE TABLE gsa_offices (
 CREATE TABLE agencies (
 	agency_id			varchar(10),
 	agency_name			varchar(100) NOT NULL,
-	agency_address		varchar(100) NOT NULL,
+	agency_address		varchar(255) NOT NULL,
 	city				varchar(100) NOT NULL,
 	phone_number		numeric(10,0) NOT NULL,
 	PRIMARY KEY (agency_id)
